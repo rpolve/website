@@ -17,8 +17,8 @@ main interest is 🧬Biology, which has to do with my formal education.
 ## About this site
 
 All scripts and details are available via public
-[repo](https://github.com/rpolve/website). The colorscheme is loosely based on
-[dracula](https://draculatheme.com/) theme.
+[repo](https://github.com/rpolve/website). The color scheme is loosely based on
+[Dracula](https://draculatheme.com/) theme.
 
 ## Personal Resume
 

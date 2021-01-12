@@ -21,10 +21,10 @@ UNDERSCORE 0.3 -5p
 .FOOTER_MARGIN 0
 .START
 
-.RLD 2.5P
+.RLD 2P
 .HEADING 1 "Contact Information\*[LEADER]"
-.TAB_SET 1 1P
-.TAB_SET 2 30P
+.TAB_SET 1 0P
+.TAB_SET 2 30P 13.5P R
 .TAB 1
 \*[BD]E-mail:\*[PREV] roberto.polverelli [at] studio.unibo.it
 .TN
@@ -33,8 +33,8 @@ UNDERSCORE 0.3 -5p
 
 .RLD 1.5P
 .HEADING 1 "Personal Information\*[LEADER]"
-.TAB_SET 1 1P
-.TAB_SET 2 30P
+.TAB_SET 1 0P
+.TAB_SET 2 30P 13.5P R
 .TAB 1
 \*[BD]Date of Birth:\*[PREV] November 8, 1990
 .TN
@@ -43,8 +43,8 @@ UNDERSCORE 0.3 -5p
 
 .RLD 1.5P
 .HEADING 1 "Education\*[LEADER]"
-.TAB_SET 1 1P
-.TAB_SET 2 30P 13P R
+.TAB_SET 1 0P
+.TAB_SET 2 30P 13.5P R
 .TAB 1
 \*[BD]Università degli Studi di Bologna\*[PREV]
 .TN
@@ -122,7 +122,7 @@ CSS
 .LIST OFF
 .TQ
 
-.RLD 2.5P
+.RLD 1.5P
 .HEADING 1 "Other Experiences\*[LEADER]"
 .TAB_SET 1 0P 29P L QUAD
 .TAB_SET 2 30P 13.5P R

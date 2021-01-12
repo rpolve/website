@@ -5,15 +5,16 @@
 
 div[id="menu"] img {
   margin: 2px 0;
+  display: block;
 }
 
-.dark-bg { display: none ;}
-.light-bg { display: block ;}
+.dark-bg { display: none !important ;}
 
 @media (prefers-color-scheme: dark) {
-  .light-bg { display: none ;}
-  .dark-bg { display: block ;}
+  .dark-bg { display: block !important ;}
+  .light-bg { display: none !important ;}
 }
+
 </style>
 <div id="menu" class="mobileHide">
   <a href="https://github.com/rpolve">

@@ -7,7 +7,7 @@ at https://roberto.pm.
 CSS
 ---
 
-It's a heavily modified copy of github.css from
-https://github.com/otsaloma/markdown-css. The main
-added features are the @media queries for enabling
-dark mode and mobile browsers.
+It's a modified copy of github.css from
+https://github.com/otsaloma/markdown-css.
+Main additions are media queries and the two
+colorschemes, plus many minor :things.

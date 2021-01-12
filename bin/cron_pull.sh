@@ -24,7 +24,7 @@ REMOTE=$(git rev-parse @{u})
 if [ $LOCAL != $REMOTE ]; then
     __timestamp BEGIN
     git reset --hard HEAD &&
-        git pull --recurse-submodules &&
+        git pull &&
         make
     __timestamp END
 fi >>$LOGFILE 2>&1

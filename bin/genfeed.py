@@ -38,14 +38,18 @@ def main():
         fe.title(title)
         fe.link(href="https://roberto.pm/blog/{}.html".format(k))
 
-        d = ""
+        d = "<p>"
         c = False
         for l in f:
+            if c:
+                if l == '':
+                    d += '</p><p>'
+                d += l
             if "..." == l:
                 c = True
-                continue
-            if c and l != "":
-                d += "<p>" + l + "</p>"
+        else:
+            d += '</p>'
+
         fe.description(d)
 
     fg.rss_file("rss.xml")

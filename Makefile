@@ -11,7 +11,7 @@ style.css:
 
 index.html: index.md style.css
 	pandoc $< \
-	    -H header.html \
+	    -H res/header.html \
 	    --css=style.css \
 	    --highlight-style=haddock \
 	    --to=html \
@@ -19,9 +19,9 @@ index.html: index.md style.css
 
 %.html: %.md style.css
 	pandoc $< \
-	    -H header.html \
-	    -B topbar.html \
-	    -A footer.html \
+	    -H res/header.html \
+	    -B res/topbar.html \
+	    -A res/footer.html \
 	    --css=style.css \
 	    --highlight-style=haddock \
 	    --to=html \
@@ -35,9 +35,7 @@ cv:
 .PHONY: blog
 blog:
 	$(MAKE) -C blog -f recipe.mk
-	mkdir -p feed
-	mv -v blog/*.xml feed/
 
 .PHONY: clean
 clean:
-	rm -f $(OBJ_FILES) style.css blog/*.html feed/*.xml
+	rm -f $(OBJ_FILES) style.css

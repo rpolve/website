@@ -4,16 +4,19 @@ SRC_FILES := $(wildcard *.md)
 OBJ_FILES := $(patsubst %.md,%.html,$(SRC_FILES))
 
 .PHONY: all
-all: $(OBJ_FILES) index.html feed
+all: $(OBJ_FILES) index.html rss.xml
 	rm index.md
 
-index.md: $(OBJ_FILES)
-	genindex.py >$@
+rss.xml: $(SRC_FILES)
+	gen_feed.py $^
+
+index.md: $(SRC_FILES)
+	gen_blog.py > $@
 
 index.html: index.md
 	pandoc $< \
-	    -B ../topbar.html \
-	    -A ../footer.html \
+	    -B ../res/topbar.html \
+	    -A ../res/footer.html \
 	    --css=../style.css \
 	    --highlight-style=haddock \
 	    --to=html \
@@ -22,14 +25,10 @@ index.html: index.md
 
 %.html: %.md
 	pandoc $< \
-	    -B ../topbar.html \
-	    -A ../footer.html \
+	    -B ../res/topbar.html \
+	    -A ../res/footer.html \
 	    --css=../style.css \
 	    --highlight-style=haddock \
 	    --to=html \
 	    --output=$@ \
 	    --toc
-
-.PHONY: feed
-feed: index.md $(SRC_FILES)
-	genfeed.py $^

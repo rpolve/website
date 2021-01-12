@@ -21,8 +21,7 @@ fg.language("en")
 
 
 def main():
-    index = sys.argv[1]
-    items = sys.argv[2:]
+    items = sys.argv[1:]
 
     for i in items:
         with open(i) as f:
@@ -38,23 +37,23 @@ def main():
         fe.title(title)
         fe.link(href="https://roberto.pm/blog/{}.html".format(k))
 
-        d = '<p>'
+        d = "<p>"
         c = False
         for l in f:
-            if l == '':
+            if l == "":
                 if not c:
                     c = True
                     continue
                 else:
                     d = d.rstrip()
-                    d += '</p><p>'
+                    d += "</p><p>"
             else:
                 if c:
                     d += l
-                    d += ' '
+                    d += " "
         else:
             d = d.rstrip()
-            d += '</p>'
+            d += "</p>"
 
         fe.description(d)
 

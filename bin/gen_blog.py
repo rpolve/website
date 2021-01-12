@@ -8,6 +8,7 @@
     Description:
 """
 import os
+import time
 
 header = """---
 lang: en-US
@@ -22,9 +23,9 @@ def main():
     for i in ls:
         i_split = i.split(".")
         ext = i_split[-1]
-        url = i_split[0] + ".html"
         if ext != "md" or i_split[0] == "index":
             continue
+        url = i_split[0] + ".html"
 
         with open(i) as f:
             f = f.read().splitlines()
@@ -37,6 +38,9 @@ def main():
                     secs = int(l.split(":")[-1].lstrip())
                 if l == "...":
                     break
+
+        if url not in ls:
+            date = time.strftime("%Y %b %d")
 
         items[secs] = {"url": url, "date": date, "title": title}
 

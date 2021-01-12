@@ -20,8 +20,8 @@ famous _colossi_ of the web. While information technologies are becoming
 increasingly available and omnipresent in everyday life, net-citizens are less
 the “home-owners” than they used to be. In many ways we have become like
 digital cattle. It is maybe not immediately apparent how we are paying for the
-spaces on which we stand, but we are paying nonetheless, were it be with our
-privacy, security, or even our mental health...
+spaces on which we stand, but we are paying nonetheless, were it with our
+privacy, security, or even our sanity...
 
 Lastly, as I started to get sucked into the tech world, I have noticed a bunch
 of personal websites, more or less minimal, that I enjoy reading regularly.

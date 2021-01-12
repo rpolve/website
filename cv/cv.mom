@@ -1,0 +1,149 @@
+\" vim: ft=groff:
+.PRINTSTYLE TYPESET
+.PAPER A4
+.TITLE "Curriculum Vitae"
+.TITLE_SIZE +5
+.TITLE_SMALLCAPS
+.AUTHOR "Roberto Polverelli Monti"
+.AUTHOR_SIZE +10
+.ATTRIBUTE_STRING ""
+.HEADING_STYLE 1 \
+SIZE -1 \
+CAPS \
+BASELINE_ADJUST 10p \
+UNDERSCORE 0.3 -5p
+.HEADING_STYLE 2 \
+SIZE -1
+.INDENT_FIRST_PARAS
+.PARA_INDENT 1P
+.T_MARGIN 1.5i
+.START
+
+.HEADING 1 "Contact Information\*[LEADER]"
+.TAB_SET 1 1P
+.TAB_SET 2 26P
+.TAB 1
+\*[BD]E-mail:\*[PREV] roberto.polverelli [at] studio.unibo.it
+.TN
+\*[BD]Other:\*[PREV] me [at] roberto.pm
+.TQ
+
+.HEADING 1 "Personal Information\*[LEADER]"
+.TAB_SET 1 1P
+.TAB_SET 2 26P
+.TAB 1
+\*[BD]Date of Birth:\*[PREV] November 8, 1990
+.TN
+\*[BD]Birthplace:\*[PREV] Vercelli, Italy
+.TQ
+
+.HEADING 1 "Education\*[LEADER]"
+.TAB_SET 1 1P
+.TAB_SET 2 26P 13P R
+.TAB 1
+\*[BD]Università degli Studi di Bologna\*[PREV]
+.TN
+\*[IT]2018\(enPresent\*[PREV]
+.TAB 1
+International Master in Bioinformatics
+.TAB 1
+\*[IT]Department of Pharmacy and Biotechnology\*[PREV]
+.TQ
+
+.TAB 1
+\*[BD]Università degli Studi di Torino\*[PREV]
+.TN
+\*[IT]2014\(en2018\*[PREV]
+.TAB 1
+Bachelor's Degree in Biological Sciences
+.TAB 1
+\*[IT]Department of Life Sciences and Systems Biology\*[PREV]
+.TAB 1
+Title of Degree Thesis: \*[IT]Mathematical models for studying metabolism\*[PREV]
+.TQ
+
+.HEADING 1 "Personal Statement\*[LEADER]"
+.PP
+I strongly believe in the necessity of developing advanced computational
+approaches in order to make sense of and give structure to the increasingly
+abundant plethora of biological data. Aiming to acquire the needed professional
+skills, I am eager to be confronted with real-world bioinformatics problems.
+
+.HEADING 1 "Technical Skills\*[LEADER]"
+.TAB_SET 1 1P
+.TAB_SET 2 11P
+.TAB_SET 3 21P
+.TAB_SET 4 31P
+.MCO
+.TAB 1
+.LIST BULLET
+.SHIFT_LIST 1P
+.ITEM
+\*[BD]Languages\*[PREV]:
+Bash
+Python
+R
+.LIST OFF
+.MCR
+.TAB 2
+.LIST BULLET
+.SHIFT_LIST 1P
+.ITEM
+\*[BD]DevOps\*[PREV]:
+Docker
+Kubernetes
+.LIST OFF
+.MCR
+.TAB 3
+.LIST BULLET
+.SHIFT_LIST 1P
+.ITEM
+\*[BD]Cloud\*[PREV]:
+Openstack
+AWS
+.LIST OFF
+.MCR
+.TAB 4
+.LIST BULLET
+.SHIFT_LIST 1P
+.ITEM
+\*[BD]Web\*[PREV]:
+Flask
+SQL
+HTML
+CSS
+.LIST OFF
+.TQ
+
+.NEWPAGE
+.HEADING 1 "Other Experiences\*[LEADER]"
+.TAB_SET 1 1P 23P L QUAD
+.TAB_SET 2 26P 13P R
+.MCO
+.TAB 1
+\*[BD]20th Bologna Winter School: Data Science for Bioinformatics\*[PREV]
+.MCR
+.TAB 2
+\*[IT]February 18\(en22, 2019\*[PREV]
+.MCX
+.TAB 1
+\*[IT]Università degli Studi di Bologna\*[PREV]
+.TQ
+.PP
+A week-long series of conferences presenting the state-of-the-art of the
+available Bioinformatics algorithms and Cloud-based strategies for handling
+data out of large-scale experiments.
+
+.MCO
+.TAB 1
+\*[BD]Internship at Computational Biology Unit\*[PREV]
+.MCR
+.TAB 2
+March\(enApril, 2017
+.MCX
+.TAB 1
+\*[IT]Molecular Biotechnology Center, Torino\*[PREV]
+.TQ
+.PP
+Identification of eQTLs, based on the effect of variants on Total Binding
+Affinity profiles of regulatory regions.

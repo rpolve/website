@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Roberto PM</title><link>https://roberto.pm/feed/rss.xml</link><description>My latest blog posts.</description><atom:link href="https://roberto.pm/feed/rss.xml" rel="self" type="application/rss+xml"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>en</language><lastBuildDate>Tue, 12 Jan 2021 04:43:58 +0000</lastBuildDate></channel></rss>

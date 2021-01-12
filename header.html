@@ -1,0 +1,20 @@
+<style>
+#menu {
+  position:fixed;
+  top:5px;
+  left:5px;
+}
+
+.dark-bg { display: none ;}
+
+@media (prefers-color-scheme: dark) {
+  .light-bg { display: none ;}
+  .dark-bg { display: block ;}
+}
+</style>
+<div id="menu" class="mobileHide">
+  <a href="https://github.com/rpolve">
+    <img src="img/github.png" alt="My GitHub" width="35" class="light-bg" />
+    <img src="img/github-light.png" alt="My GitHub" width="35" class="dark-bg" />
+  </a>
+</div>

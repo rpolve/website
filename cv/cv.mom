@@ -2,44 +2,48 @@
 .PRINTSTYLE TYPESET
 .PAPER A4
 .TITLE "Curriculum Vitae"
-.TITLE_SIZE +5
+.TITLE_SIZE +4
 .TITLE_SMALLCAPS
 .AUTHOR "Roberto Polverelli Monti"
-.AUTHOR_SIZE +10
+.AUTHOR_SIZE +8
 .ATTRIBUTE_STRING ""
 .HEADING_STYLE 1 \
-SIZE -1 \
+SIZE -4 \
 CAPS \
-BASELINE_ADJUST 10p \
+BASELINE_ADJUST 8p \
 UNDERSCORE 0.3 -5p
-.HEADING_STYLE 2 \
-SIZE -1
 .INDENT_FIRST_PARAS
-.PARA_INDENT 1P
-.T_MARGIN 1.5i
+.PARA_INDENT .5P
+.L_MARGIN .5i
+.R_MARGIN .5i
+.T_MARGIN .5i
+.B_MARGIN .5i
 .START
 
+.RLD 2.5P
 .HEADING 1 "Contact Information\*[LEADER]"
 .TAB_SET 1 1P
-.TAB_SET 2 26P
+.TAB_SET 2 30P
 .TAB 1
 \*[BD]E-mail:\*[PREV] roberto.polverelli [at] studio.unibo.it
 .TN
 \*[BD]Other:\*[PREV] me [at] roberto.pm
 .TQ
 
+.RLD 1.5P
 .HEADING 1 "Personal Information\*[LEADER]"
 .TAB_SET 1 1P
-.TAB_SET 2 26P
+.TAB_SET 2 30P
 .TAB 1
 \*[BD]Date of Birth:\*[PREV] November 8, 1990
 .TN
 \*[BD]Birthplace:\*[PREV] Vercelli, Italy
 .TQ
 
+.RLD 1.5P
 .HEADING 1 "Education\*[LEADER]"
 .TAB_SET 1 1P
-.TAB_SET 2 26P 13P R
+.TAB_SET 2 30P 13P R
 .TAB 1
 \*[BD]Università degli Studi di Bologna\*[PREV]
 .TN
@@ -62,6 +66,7 @@ Bachelor's Degree in Biological Sciences
 Title of Degree Thesis: \*[IT]Mathematical models for studying metabolism\*[PREV]
 .TQ
 
+.RLD 1.5P
 .HEADING 1 "Personal Statement\*[LEADER]"
 .PP
 I strongly believe in the necessity of developing advanced computational
@@ -69,11 +74,12 @@ approaches in order to make sense of and give structure to the increasingly
 abundant plethora of biological data. Aiming to acquire the needed professional
 skills, I am eager to be confronted with real-world bioinformatics problems.
 
+.RLD 1.5P
 .HEADING 1 "Technical Skills\*[LEADER]"
 .TAB_SET 1 1P
-.TAB_SET 2 11P
-.TAB_SET 3 21P
-.TAB_SET 4 31P
+.TAB_SET 2 13P
+.TAB_SET 3 25P
+.TAB_SET 4 37P
 .MCO
 .TAB 1
 .LIST BULLET
@@ -115,10 +121,24 @@ CSS
 .LIST OFF
 .TQ
 
-.NEWPAGE
+.RLD 2.5P
 .HEADING 1 "Other Experiences\*[LEADER]"
-.TAB_SET 1 1P 23P L QUAD
-.TAB_SET 2 26P 13P R
+.TAB_SET 1 0P 29P L QUAD
+.TAB_SET 2 30P 13.5P R
+.MCO
+.TAB 1
+\*[BD]Internship at INFN-CNAF\*[PREV]
+.MCR
+.TAB 2
+\*[IT]October 2020\(enPresent\*[PREV]
+.MCX
+.TAB 1
+\*[IT]National Institute for Nuclear Physics, Bologna\*[PREV]
+.TQ
+.PP
+Provisioning of a complete Kubernetes cluster hosting Functions as a Service,
+for the auto-scalable deployment of Bioinformatics applications.
+
 .MCO
 .TAB 1
 \*[BD]20th Bologna Winter School: Data Science for Bioinformatics\*[PREV]
@@ -139,7 +159,7 @@ data out of large-scale experiments.
 \*[BD]Internship at Computational Biology Unit\*[PREV]
 .MCR
 .TAB 2
-March\(enApril, 2017
+\*[IT]March\(enApril, 2017\*[PREV]
 .MCX
 .TAB 1
 \*[IT]Molecular Biotechnology Center, Torino\*[PREV]

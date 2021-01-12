@@ -38,16 +38,22 @@ def main():
         fe.title(title)
         fe.link(href="https://roberto.pm/blog/{}.html".format(k))
 
-        d = "<p>"
+        d = '<p>'
         c = False
         for l in f:
-            if c:
-                if l == '':
+            if l == '':
+                if not c:
+                    c = True
+                    continue
+                else:
+                    d = d.rstrip()
                     d += '</p><p>'
-                d += l
-            if "..." == l:
-                c = True
+            else:
+                if c:
+                    d += l
+                    d += ' '
         else:
+            d = d.rstrip()
             d += '</p>'
 
         fe.description(d)

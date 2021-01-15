@@ -32,16 +32,6 @@ UNDERSCORE 0.3 -5p
 .TQ
 
 .RLD 1.5P
-.HEADING 1 "Personal Information\*[LEADER]"
-.TAB_SET 1 0P
-.TAB_SET 2 30P 13.5P R
-.TAB 1
-\*[BD]Date of Birth:\*[PREV] November 8, 1990
-.TN
-\*[BD]Birthplace:\*[PREV] Vercelli, Italy
-.TQ
-
-.RLD 1.5P
 .HEADING 1 "Education\*[LEADER]"
 .TAB_SET 1 0P
 .TAB_SET 2 30P 13.5P R

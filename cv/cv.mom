@@ -8,7 +8,7 @@
 .AUTHOR_SIZE +8
 .ATTRIBUTE_STRING ""
 .HEADING_STYLE 1 \
-SIZE -4 \
+SIZE -3 \
 CAPS \
 BASELINE_ADJUST 8p \
 UNDERSCORE 0.3 -5p
@@ -16,12 +16,12 @@ UNDERSCORE 0.3 -5p
 .PARA_INDENT .5P
 .L_MARGIN .5i
 .R_MARGIN .5i
-.T_MARGIN .5i
+.T_MARGIN .8i
 .B_MARGIN .5i
 .FOOTER_MARGIN 0
 .START
 
-.RLD 2P
+.RLD 1P
 .HEADING 1 "Contact Information\*[LEADER]"
 .TAB_SET 1 0P
 .TAB_SET 2 30P 13.5P R
@@ -31,7 +31,7 @@ UNDERSCORE 0.3 -5p
 \*[BD]Other:\*[PREV] me [at] roberto.pm
 .TQ
 
-.RLD 1.5P
+.RLD 1P
 .HEADING 1 "Education\*[LEADER]"
 .TAB_SET 1 0P
 .TAB_SET 2 30P 13.5P R
@@ -57,7 +57,7 @@ Bachelor's Degree in Biological Sciences
 Title of Degree Thesis: \*[IT]Mathematical models for studying metabolism\*[PREV]
 .TQ
 
-.RLD 1.5P
+.RLD 1P
 .HEADING 1 "Personal Statement\*[LEADER]"
 .PP
 I strongly believe in the necessity of developing advanced computational
@@ -65,7 +65,7 @@ approaches in order to make sense of and give structure to the increasingly
 abundant plethora of biological data. Aiming to acquire the needed professional
 skills, I am eager to be confronted with real-world bioinformatics problems.
 
-.RLD 1.5P
+.RLD 1P
 .HEADING 1 "Technical Skills\*[LEADER]"
 .TAB_SET 1 1P
 .TAB_SET 2 13P
@@ -112,7 +112,7 @@ CSS
 .LIST OFF
 .TQ
 
-.RLD 1.5P
+.RLD 1P
 .HEADING 1 "Other Experiences\*[LEADER]"
 .TAB_SET 1 0P 29P L QUAD
 .TAB_SET 2 30P 13.5P R

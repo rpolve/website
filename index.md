@@ -9,10 +9,10 @@ Welcome to my personal web space.
 
 - [Recent posts](blog/)
 
-## About me 👨‍💻
+## About me
 
-I like computing, particularly the Unix family and its derivatives.🐧 My other
-main interest is 🧬Biology, which has to do with my formal education.
+I like computing, particularly the Unix family and its derivatives. My other
+main interest is Biology, which has to do with my formal education.
 
 ## About this site
 

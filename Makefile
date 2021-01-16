@@ -38,4 +38,4 @@ blog:
 
 .PHONY: clean
 clean:
-	rm -f $(OBJ_FILES) style.css
+	rm -f $(OBJ_FILES) blog/rss.xml

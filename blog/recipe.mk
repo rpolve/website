@@ -7,7 +7,7 @@ OBJ_FILES := $(patsubst %.md,%.html,$(SRC_FILES))
 all: $(OBJ_FILES) index.html rss.xml
 	rm index.md
 
-rss.xml: $(SRC_FILES)
+rss.xml: $(OBJ_FILES)
 	gen_feed.py $^
 
 index.md: $(SRC_FILES)

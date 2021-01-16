@@ -7,8 +7,15 @@
     Created on: 2021 Jan 12
     Description:
 """
+import re
 import sys
+from datetime import datetime
+from email.utils import format_datetime
 from feedgen.feed import FeedGenerator
+
+title_RE = re.compile("<title>(.*)</title>$")
+para_RE = re.compile("<p>(.*)</p>$")
+heading_RE = re.compile("<h\d id=[^>]+>(.*)</h\d>$")
 
 
 fg = FeedGenerator()
@@ -24,38 +31,44 @@ def main():
     items = sys.argv[1:]
 
     for i in items:
+        if i == "index.html":
+            continue
+
+        src = i.split(".")[0] + ".md"
+        with open(src) as f:
+            f = f.read().splitlines()
+
+            for l in f:
+                if l == "...":
+                    break
+                elif "    Timestamp: " in l:
+                    timestamp = int(l.split(":")[-1])
+                    pub_date = format_datetime(datetime.fromtimestamp(timestamp))
+
         with open(i) as f:
             f = f.read().splitlines()
+
+            d = ""
             for l in f:
-                if "..." == l:
-                    break
-                elif "title: " in l:
-                    title = l.split(":")[-1].lstrip()[1:-1]
+                is_title = title_RE.search(l)
+                is_heading = heading_RE.search(l)
+                is_para = para_RE.search(l)
+                if is_para:
+                    d += is_para[1]
+                    d += "<p></p>"
+                elif is_heading:
+                    d += is_heading[1]
+                    d += "<p></p>"
+                elif is_title:
+                    title = is_title[1]
+
         k = i.split(".")[0]
         fe = fg.add_entry()
         fe.id("https://roberto.pm/blog/{}.html".format(k))
         fe.title(title)
         fe.link(href="https://roberto.pm/blog/{}.html".format(k))
-
-        d = "<p>"
-        c = False
-        for l in f:
-            if l == "":
-                if not c:
-                    c = True
-                    continue
-                else:
-                    d = d.rstrip()
-                    d += "</p><p>"
-            else:
-                if c:
-                    d += l
-                    d += " "
-        else:
-            d = d.rstrip()
-            d += "</p>"
-
         fe.description(d)
+        fe.pubDate(pub_date)
 
     fg.rss_file("rss.xml")
 

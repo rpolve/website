@@ -38,4 +38,4 @@ blog:
 
 .PHONY: clean
 clean:
-	rm -f $(OBJ_FILES) blog/rss.xml
+	rm -f $(OBJ_FILES) blog/*.html blog/rss.xml

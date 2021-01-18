@@ -15,7 +15,7 @@ fi
 trap "rm -f $LOCKFILE; exit" INT TERM EXIT
 echo $$ > "$LOCKFILE"
 
-cd $HOME/website && direnv allow || exit 1
+cd $HOME/website || exit 1
 
 git remote update > /dev/null 2>&1
 LOCAL=$(git rev-parse @{0})

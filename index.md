@@ -26,4 +26,4 @@ All scripts and details are available via public
 
 ## Contact
 
-You can email me at `me [at] this domain`. I often idle as `polve` on Freenode.
+You can message `polve` on Freenode, or send an email to `me [at] this domain`.

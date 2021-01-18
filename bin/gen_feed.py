@@ -16,6 +16,7 @@ from feedgen.feed import FeedGenerator
 title_RE = re.compile("<title>(.*)</title>$")
 para_RE = re.compile("<p>(.*)</p>$")
 heading_RE = re.compile("<h\d id=[^>]+>(.*)</h\d>$")
+img_RE = re.compile('<img src=[^>]+ />')
 
 
 fg = FeedGenerator()
@@ -53,14 +54,21 @@ def main():
                 is_title = title_RE.search(l)
                 is_heading = heading_RE.search(l)
                 is_para = para_RE.search(l)
+                is_img = img_RE.search(l)
                 if is_para:
-                    d += is_para[1]
-                    d += "<p></p>"
+                    d += is_para[0]
+                    d += "<br />"
+                elif is_img:
+                    d += is_img[0]
+                    d += "<br />"
                 elif is_heading:
-                    d += is_heading[1]
-                    d += "<p></p>"
+                    d += is_heading[0]
+                    d += "<br />"
                 elif is_title:
                     title = is_title[1]
+
+            if d[-6:] == '<br />':
+                d = d[:-6]
 
         k = i.split(".")[0]
         fe = fg.add_entry()

@@ -24,7 +24,7 @@ fg.id("https://roberto.pm/blog/")
 fg.title("Roberto PM")
 fg.author({"name": "Roberto"})
 fg.subtitle("My latest blog posts.")
-fg.link(href="https://roberto.pm/feed/rss.xml", rel="self", type="application/rss+xml")
+fg.link(href="https://roberto.pm/blog/rss.xml", rel="self", type="application/rss+xml")
 fg.language("en")
 
 

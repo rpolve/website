@@ -80,12 +80,6 @@
   code span.wa { color: var(--dracula2); font-weight: bold; } /* Warning */
 }
 
-#menu {
-  position:fixed;
-  top:5px;
-  left:5px;
-}
-
 .dark-bg { display: none ;}
 
 @media (prefers-color-scheme: dark) {
@@ -96,13 +90,6 @@
 .author:before { content: "Author: "; font-weight: bold; }
 
 .author,.title { text-align: center; }
-
-.mobileHide { display: inline; }
-
-/* Smartphone Portrait and Landscape */
-@media only screen
-and (min-device-width: 320px)
-and (max-device-width: 480px){ .mobileHide { display: none; }}
 
 body {
   -webkit-text-size-adjust: 100%;

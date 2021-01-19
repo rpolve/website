@@ -15,7 +15,7 @@ only because I made it simple enough so that I don't outright hate it.
 There are several reasons for me to have made this. The most prominent one of
 course is as a mean of procrastination. Another reason would be the great
 dislike that I have developed towards the modern internet. For most people,
-what would be called as a “web presence”, is usually attained through the ever
+what would be called a “web presence”, is usually attained through the ever
 famous _colossi_ of the web. While information technologies are becoming
 increasingly available and omnipresent in everyday life, net-citizens are less
 the “home-owners” than they used to be. In many ways we have become like

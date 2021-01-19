@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 """
-    genindex.py
-    blog/
+    gen_blog.py
+    bin/
 
     Author: Roberto Polverelli Monti <rpolverelli at gmail>
     Created on: 2021 Jan 12
-    Description:
+    Description: generate the blog index.html starting from
+    a collection of article sources.
 """
 import os
 import time
 
 header = """---
 lang: en-US
-title: 'Recent items'
+title: 'Blog'
 ..."""
 
 

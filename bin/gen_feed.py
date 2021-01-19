@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-    genfeed.py
-    blog/
+    gen_feed.py
+    bin/
 
     Author: Roberto Polverelli Monti <rpolverelli at gmail>
     Created on: 2021 Jan 12
-    Description:
+    Description: generate the xml feed containing all articles.
 """
 import re
 import sys
@@ -16,16 +16,17 @@ from feedgen.feed import FeedGenerator
 title_RE = re.compile("<title>(.*)</title>$")
 para_RE = re.compile("<p>(.*)</p>$")
 heading_RE = re.compile("<h\d id=[^>]+>(.*)</h\d>$")
-img_RE = re.compile('<img src=[^>]+ />')
+img_RE = re.compile("<img src=[^>]+ />")
 
 
 fg = FeedGenerator()
 fg.id("https://roberto.pm/blog/")
 fg.title("Roberto PM")
 fg.author({"name": "Roberto"})
-fg.subtitle("My latest blog posts.")
+fg.subtitle("Latest blog posts.")
 fg.link(href="https://roberto.pm/blog/rss.xml", rel="self", type="application/rss+xml")
-fg.language("en")
+fg.link(href="https://roberto.pm/blog/", rel="alternate")
+fg.language("en-us")
 
 
 def main():
@@ -67,7 +68,7 @@ def main():
                 elif is_title:
                     title = is_title[1]
 
-            if d[-6:] == '<br />':
+            if d[-6:] == "<br />":
                 d = d[:-6]
 
         k = i.split(".")[0]

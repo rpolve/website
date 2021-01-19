@@ -1,13 +1,14 @@
 ABOUT THIS
 ==========
 
-This is just the src for my small personal website
-at https://roberto.pm.
+This is just the src for my small personal
+website at https://roberto.pm.
 
 CSS
 ---
 
-It's a modified copy of github.css from
-https://github.com/otsaloma/markdown-css.
-Main additions are media queries and the two
-colorschemes, plus many minor things.
+Heavily modified version of github.css from
+https://github.com/otsaloma/markdown-css,
+most notably with the addition of dark mode
+media query and color scheme adaptations
+/simplifications, plus other stuff.

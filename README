@@ -10,5 +10,4 @@ CSS
 Heavily modified version of github.css from
 https://github.com/otsaloma/markdown-css,
 most notably with the addition of dark mode
-media query and color scheme adaptations
-/simplifications, plus other stuff.
+media query and a few other enhancements.

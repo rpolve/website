@@ -80,8 +80,8 @@ the industry.
 .SHIFT_LIST 1P
 .ITEM
 \*[BD]Languages\*[PREV]:
-Bash
 Python
+Bash
 R
 .LIST OFF
 .MCR

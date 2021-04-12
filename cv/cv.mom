@@ -27,9 +27,23 @@ UNDERSCORE 0.3 -5p
 .TAB_SET 1 0P
 .TAB_SET 2 30P 13.5P R
 .TAB 1
-\*[BD]E-mail:\*[PREV] roberto.polverelli [at] studio.unibo.it
+\*[BD]E-mail:\*[PREV] r.polverellimonti [at] cineca.it
 .TN
 \*[BD]Other:\*[PREV] me [at] roberto.pm
+.TQ
+
+.RLD 1P
+.HEADING 1 "Work Experience\*[LEADER]"
+.TAB_SET 1 0P
+.TAB_SET 2 30P 13.5P R
+.TAB 1
+\*[BD]Cineca \(en Consorzio Interuniversitario\*[PREV] | \*[IT]www.cineca.it\*[PREV]
+.TN
+\*[IT]2021\(enPresent\*[PREV]
+.TAB 1
+System Administrator
+\*[IT]HPC Systems Management Group\*[PREV]
+Via Magnanelli 6/3, 40033 Casalecchio di Reno (Bologna), Italy
 .TQ
 
 .RLD 1P
@@ -54,8 +68,6 @@ International Master in Bioinformatics
 Bachelor's Degree in Biological Sciences
 .TAB 1
 \*[IT]Department of Life Sciences and Systems Biology\*[PREV]
-.TAB 1
-Title of Degree Thesis: \*[IT]Mathematical models for studying metabolism\*[PREV]
 .TQ
 
 .RLD 1P
@@ -124,7 +136,7 @@ CSS
 \*[BD]Internship at INFN-CNAF\*[PREV]
 .MCR
 .TAB 2
-\*[IT]October 2020\(enPresent\*[PREV]
+\*[IT]October 2020\(enApril 2021\*[PREV]
 .MCX
 .TAB 1
 \*[IT]National Institute for Nuclear Physics, Bologna\*[PREV]
@@ -132,21 +144,6 @@ CSS
 .PP
 Provisioning of a complete Kubernetes cluster hosting Functions as a Service,
 for the auto-scalable deployment of Bioinformatics applications.
-
-.MCO
-.TAB 1
-\*[BD]20th Bologna Winter School: Data Science for Bioinformatics\*[PREV]
-.MCR
-.TAB 2
-\*[IT]February 18\(en22, 2019\*[PREV]
-.MCX
-.TAB 1
-\*[IT]Università degli Studi di Bologna\*[PREV]
-.TQ
-.PP
-A week-long series of conferences presenting the state-of-the-art of the
-available Bioinformatics algorithms and Cloud-based strategies for handling
-data out of large-scale experiments.
 
 .MCO
 .TAB 1

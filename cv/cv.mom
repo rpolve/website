@@ -37,7 +37,7 @@ UNDERSCORE 0.3 -5p
 .TAB_SET 1 0P
 .TAB_SET 2 30P 13.5P R
 .TAB 1
-\*[BD]Cineca \(en Consorzio Interuniversitario\*[PREV] | \*[IT]www.cineca.it\*[PREV]
+\*[BD]Cineca \(en Consorzio Interuniversitario\*[PREV]
 .TN
 \*[IT]2021\(enPresent\*[PREV]
 .TAB 1
@@ -74,11 +74,10 @@ Bachelor's Degree in Biological Sciences
 .HEADING 1 "Personal Statement\*[LEADER]"
 .PP
 I strongly believe in the necessity of developing advanced computational
-approaches in order to make sense of and give structure to the
-increasingly abundant plethora of data that are being produced. Aiming
-to acquire the needed professional skills, I am eager to be confronted
-with real-world problems, and to learn from those who already work in
-the industry.
+approaches in order to make sense of and give structure to the increasing
+abundance of data that are being produced. Aiming to acquire the needed
+professional skills, I am eager to be confronted with real-world problems, and
+to learn from those who already work in the industry.
 
 .RLD 1P
 .HEADING 1 "Technical Skills\*[LEADER]"

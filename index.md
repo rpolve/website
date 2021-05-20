@@ -11,13 +11,16 @@ Welcome to my personal web space.
 
 ## About me
 
-I like computing, particularly the Unix family and its derivatives. My other
-main interest is Biology, which has to do with my formal education.
+I like computing, particularly the Unix family and its derivatives.  My other
+main interest is Biology, which has to do with my formal education.  Recently,
+I transitioned into the tech industry.  Specifically, the management of HPC
+systems.  I used to spend a lot of time tinkering with software, but being
+employed has been very bad for my tech hobby.
 
 ## About this site
 
-Scripts and resources available at [this
-repo](https://github.com/rpolve/website). The color scheme is loosely based on
+Scripts and resources are available at this
+[repo](https://github.com/rpolve/website).  The color scheme is loosely based on
 [Dracula](https://draculatheme.com/) theme.
 
 ## Personal resume
@@ -26,6 +29,6 @@ repo](https://github.com/rpolve/website). The color scheme is loosely based on
 
 ## Contact
 
-You can message `polve` on Libera, or send an email to `me [at] this
-domain`.<br /> I operate by [Crocker's
+You can message `polve` on Libera Chat, or send an email to `me [at] this
+domain`.  <br />I operate by [Crocker's
 rules](https://www.lesswrong.com/tag/crockers-rules).

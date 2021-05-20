@@ -26,6 +26,6 @@ repo](https://github.com/rpolve/website). The color scheme is loosely based on
 
 ## Contact
 
-You can message `polve` on Freenode, or send an email to `me [at] this
+You can message `polve` on Libera, or send an email to `me [at] this
 domain`.<br /> I operate by [Crocker's
 rules](https://www.lesswrong.com/tag/crockers-rules).

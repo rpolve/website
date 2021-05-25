@@ -12,10 +12,7 @@ Welcome to my personal web space.
 ## About me
 
 I like computing, particularly the Unix family and its derivatives.  My other
-main interest is Biology, which has to do with my formal education.  Recently,
-I transitioned into the tech industry.  Specifically, the management of HPC
-systems.  I used to spend a lot of time tinkering with software, but being
-employed has been very bad for my tech hobby.
+main interest is Biology, which has to do with my formal education.
 
 ## About this site
 
